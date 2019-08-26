@@ -16,10 +16,10 @@ class Dog
   end
 
   def self.print_all
-    print @@all
+    print @@all.strip
   end
 
   def save
     @@all << self
-  end 
+  end
 end
