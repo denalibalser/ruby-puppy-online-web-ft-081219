@@ -16,7 +16,7 @@ class Dog
   end
 
   def self.print_all
-    print @@all.strip
+    @@all
   end
 
   def save
